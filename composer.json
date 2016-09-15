@@ -1,0 +1,24 @@
+{
+  "name": "rpodwika/yaml-config-service-provider",
+  "description": "Based on deralex/YamlConfigServiceProvider YAML service provider for silex ~2.0 and symfony/yaml 3.~",
+  "type": "library",
+  "require": {
+    "symfony/yaml": "^3.1",
+    "silex/silex": "^2.0"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Robert Podwika",
+      "email": "hello@rpodwika.pl",
+      "homepage": "http://www.rpodwika.pl",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Rpodwika\\Silex\\": "src/"
+    }
+  }
+}
